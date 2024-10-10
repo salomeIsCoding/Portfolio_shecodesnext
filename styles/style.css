@@ -75,9 +75,9 @@ h6 {
 
 p {
   font-family: var(--default-font);
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
 }
 
 footer p {
@@ -201,6 +201,14 @@ footer {
 
 .grid-project {
   padding: 0px;
+}
+
+.grid-project p {
+  margin-left: 40px;
+}
+
+.grid-project h5 {
+  margin-left: 40px;
 }
 
 #project:hover {
