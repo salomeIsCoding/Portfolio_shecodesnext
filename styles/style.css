@@ -1,20 +1,34 @@
 :root {
   --primary-color: #6772e6;
-  --default-font: "Space Grotesk", sans-serif;
+  --default-font: "Poppins", sans-serif;
   --second-font: "Micro 5", sans-serif;
   --mono-font: "Space Mono", monospace;
 }
 
+body {
+  background-color: #f1f2f3;
+}
+
 .logo-homepage {
-  width: 65px;
+  width: 45px;
+}
+
+nav div {
+  padding: 60px 120px;
+  align-items: center;
+}
+
+header {
+  height: 80vh;
 }
 
 button {
-  padding: 5px 45px;
+  padding: 5px 25px;
+  margin-top: 2px;
   font-family: var(--default-font);
-  font-size: 25px;
-  font-weight: 600;
-  border: solid 3px var(--primary-color);
+  font-size: 17px;
+  font-weight: 500;
+  border: solid 2px var(--primary-color);
   border-radius: 50px;
   background-color: transparent;
   color: var(--primary-color);
@@ -30,7 +44,9 @@ button:hover {
 h1 {
   font-family: var(--default-font);
   font-weight: 700;
-  font-size: 130px;
+  font-size: 6vw;
+  line-height: 6.5vw;
+  margin-top: 40px;
 }
 
 h2 {
@@ -58,9 +74,9 @@ h6 {
 }
 
 p {
-  font-family: var(--mono-font);
-  font-size: 14px;
-  font-weight: 400;
+  font-family: var(--default-font);
+  font-size: 17px;
+  font-weight: 500;
   line-height: 20px;
 }
 
@@ -82,8 +98,78 @@ footer {
   margin-top: 100px;
 }
 
-.headline {
-  margin-top: 350px;
+/* _____________________________________________________________________________________________________________________________________ */
+/* Flip-Card */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 2000px; /* 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* _____________________________________________________________________________________________________________________________________ */
+
+.intro {
+  padding: 0 0px 0 40px;
+  margin-top: 200px;
+}
+
+.tag {
+  color: #6772e6;
+  display: flex;
+  align-items: center;
+  animation: anim-text 1000ms cubic-bezier(0, 0.45, 0.15, 1);
+}
+
+.content-intro {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gif {
+  margin-top: 200px;
+}
+
+.intro-description {
+  margin-top: 200px;
+  max-width: 550px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
 }
 
 .arrow {
@@ -100,6 +186,13 @@ footer {
   cursor: pointer;
   scale: 1.3;
   transition: all 200ms ease-in-out;
+}
+
+.test-outline {
+  color: #f1f1f1;
+  color: #f1f2f3;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 #project {
