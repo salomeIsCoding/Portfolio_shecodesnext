@@ -96,12 +96,13 @@ a:hover {
 
 footer {
   background-color: #f1f2f3;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 footer p {
   margin: 0 auto;
   max-width: 50%;
+  opacity: 0.5;
 }
 
 /* _____________________________________________________________________________________________________________________________________ */
@@ -252,6 +253,10 @@ footer p {
   transition: all 200ms ease-in-out;
 }
 
+.footnote {
+  font-size: 12px;
+  opacity: 0.5;
+}
 /* About */
 
 .about-container {
