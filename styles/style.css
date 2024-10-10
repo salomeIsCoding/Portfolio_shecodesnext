@@ -22,6 +22,10 @@ header {
   height: 100vh;
 }
 
+section .container {
+  height: 80vh;
+}
+
 button {
   padding: 5px 25px;
   margin-top: 2px;
@@ -261,18 +265,13 @@ footer p {
 }
 /* About */
 
-.about-container {
-  margin-top: 150px;
-}
-
 #profile-picture {
   border-radius: 20px;
+  margin-left: 140px;
 }
 
-.social-media {
-  font-family: var(--mono-font);
-  font-size: 15px;
-  color: var(--primary-color);
+.description p {
+  margin-right: 190px;
 }
 
 .icon-test svg .rotate {
