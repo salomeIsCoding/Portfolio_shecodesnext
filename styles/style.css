@@ -280,15 +280,23 @@ footer p {
   }
 
   .icon-test {
-    position: fixed !important;
-    bottom: 30px !important;
-    left: 60px !important;
+    bottom: 30px;
+    left: 60px;
     width: 130px;
     padding: 0px;
   }
 
+  @keyframes rotateText {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .grid-project p {
-    margin-left: 0px;
+    margin-left: 20px;
     margin-bottom: 110px;
   }
 
@@ -297,7 +305,7 @@ footer p {
   }
 
   .grid-project h5 {
-    margin-left: 0px;
+    margin-left: 20px;
   }
 
   .grid-project img {
