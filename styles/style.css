@@ -267,81 +267,51 @@ footer p {
     line-height: 11vw;
   }
 
+  .row .meteo:first-child {
+    order: 1; /* L'image sera toujours en premier */
+  }
+
   .content-intro {
     display: block;
   }
 
   .intro-description {
-    margin-top: 180px;
+    margin-top: 110px;
   }
 
   .icon-test {
     position: fixed !important;
-    bottom: 20px !important;
-    right: 20% !important;
-    width: 140px;
+    bottom: 30px !important;
+    left: 60px !important;
+    width: 130px;
     padding: 0px;
+  }
+
+  .grid-project p {
+    margin-left: 0px;
+    margin-bottom: 90px;
+  }
+
+  .meteo p {
+    margin-bottom: 90px;
+  }
+
+  .grid-project h5 {
+    margin-left: 0px;
+  }
+
+  .grid-project img {
+    margin-left: 0px;
+  }
+
+  #project {
+    margin-bottom: 40px;
+  }
+
+  #projects {
+    max-width: 70%;
   }
 }
 
 @media (max-width: 414px) {
-  h1 {
-    font-size: 50px;
-  }
-
-  h2 {
-    font-size: 25px;
-    margin-bottom: 50px;
-  }
-
-  h3 {
-    margin-top: 20px;
-    font-size: 40px;
-  }
-
-  h6 {
-    font-size: 13px;
-    margin: 0px;
-  }
-
-  button {
-    padding: 5px 30px;
-    font-size: 18px;
-  }
-
-  footer {
-    margin-top: 40px;
-  }
-
-  footer p {
-    margin-bottom: 0px;
-  }
-
-  .headline {
-    margin-top: 170px;
-  }
-
-  .logo-homepage {
-    width: 50px;
-    margin-left: 10px;
-  }
-
-  .work {
-    margin-top: 150px;
-  }
-
-  #close {
-    margin-right: 5% !important;
-    margin-top: 5% !important;
-  }
-
-  #headline-contact {
-    font-size: 100px;
-    line-height: 100px;
-  }
-
-  .contact-container {
-    margin-top: 150px;
-    margin-bottom: 10px;
-  }
 }
