@@ -279,6 +279,14 @@ footer p {
     margin-top: 110px;
   }
 
+  .icon-test svg .rotate {
+    fill: #6772e6;
+    font-size: 16px;
+    font-family: var(--default-font);
+    animation: rotateText 20000ms linear infinite;
+    transform-origin: 50% 50%;
+  }
+
   .icon-test {
     bottom: 30px;
     left: 60px;
