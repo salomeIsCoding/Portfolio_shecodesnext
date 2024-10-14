@@ -289,11 +289,11 @@ footer p {
 
   .grid-project p {
     margin-left: 0px;
-    margin-bottom: 90px;
+    margin-bottom: 110px;
   }
 
   .meteo p {
-    margin-bottom: 90px;
+    margin-bottom: 110px;
   }
 
   .grid-project h5 {
@@ -309,6 +309,14 @@ footer p {
   }
 
   #projects {
+    max-width: 70%;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
+  footer p {
     max-width: 70%;
   }
 }
