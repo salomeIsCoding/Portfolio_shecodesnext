@@ -287,7 +287,6 @@ footer p {
   }
 
   .icon-test {
-    bottom: 30px;
     left: 60px;
     width: 130px;
     padding: 0px;
@@ -328,7 +327,6 @@ footer p {
   }
 
   footer {
-    margin-top: 30px;
   }
 
   footer p {
@@ -338,17 +336,39 @@ footer p {
 
 @media (max-width: 414px) {
   nav div {
-    padding: 40px 30px;
   }
 
   h1 {
-    font-size: 50px;
-    line-height: 60px;
-    margin-top: 30px;
+    font-size: 35px;
+    line-height: 42px;
+    margin-top: 25px;
+  }
+
+  button {
+    padding: 4px 20px;
+    margin-top: 0px;
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  h5 {
+    font-size: 17px;
+  }
+
+  .logo-homepage {
+    width: 35px;
+  }
+
+  .tag {
+    font-size: 13px;
   }
 
   .intro .tag svg {
-    width: 40px;
     margin-right: 20px;
   }
 
@@ -356,9 +376,13 @@ footer p {
     order: 1; /* L'image sera toujours en premier */
   }
 
+  div .col-lg-6 {
+    padding: 0px;
+  }
+
   .intro-description {
-    margin-top: 30px;
     max-width: 90%;
+    margin-top: 20px;
   }
 
   .icon-test svg .rotate {
@@ -370,8 +394,7 @@ footer p {
   }
 
   .icon-test {
-    bottom: 30px;
-    left: 60px;
+    left: 40px;
     width: 100px;
     padding: 0px;
   }
@@ -386,7 +409,7 @@ footer p {
   }
 
   .grid-project p {
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 110px;
   }
 
@@ -395,26 +418,23 @@ footer p {
   }
 
   .grid-project h5 {
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
   .grid-project img {
     margin-left: 0px;
-  }
-
-  #project {
-    margin-bottom: 40px;
+    padding: 0px;
   }
 
   #projects {
-    max-width: 70%;
+    padding: 0px;
   }
 
   footer {
-    margin-top: 30px;
+    margin-bottom: 120px;
   }
 
   footer p {
-    max-width: 70%;
+    max-width: 80%;
   }
 }
