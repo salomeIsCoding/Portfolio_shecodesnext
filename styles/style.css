@@ -340,9 +340,13 @@ footer p {
     padding: 30px 20px;
   }
 
+  header {
+    margin-bottom: 110px;
+  }
+
   h1 {
-    font-size: 52px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 43px;
     margin-top: 25px;
   }
 
@@ -353,7 +357,7 @@ footer p {
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 0px;
     margin-bottom: 40px;
   }
@@ -389,7 +393,7 @@ footer p {
 
   .intro-description {
     max-width: 90%;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .icon-test svg .rotate {
