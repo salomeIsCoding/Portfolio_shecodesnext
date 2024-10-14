@@ -327,6 +327,7 @@ footer p {
   }
 
   footer {
+    margin-bottom: 120px;
   }
 
   footer p {
@@ -336,6 +337,7 @@ footer p {
 
 @media (max-width: 414px) {
   nav div {
+    padding: 30px 40px;
   }
 
   h1 {
@@ -364,11 +366,16 @@ footer p {
     width: 35px;
   }
 
+  .intro {
+    padding: 0px 20px;
+  }
+
   .tag {
     font-size: 13px;
   }
 
   .intro .tag svg {
+    width: 30px;
     margin-right: 20px;
   }
 
