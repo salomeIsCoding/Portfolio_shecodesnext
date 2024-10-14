@@ -337,12 +337,12 @@ footer p {
 
 @media (max-width: 414px) {
   nav div {
-    padding: 30px 40px;
+    padding: 30px 20px;
   }
 
   h1 {
-    font-size: 35px;
-    line-height: 42px;
+    font-size: 52px;
+    line-height: 60px;
     margin-top: 25px;
   }
 
@@ -375,7 +375,7 @@ footer p {
   }
 
   .intro .tag svg {
-    width: 30px;
+    width: 40px;
     margin-right: 20px;
   }
 
@@ -401,7 +401,7 @@ footer p {
   }
 
   .icon-test {
-    left: 40px;
+    left: 20px;
     width: 100px;
     padding: 0px;
   }
