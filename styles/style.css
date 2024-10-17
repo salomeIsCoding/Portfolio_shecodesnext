@@ -112,6 +112,10 @@ footer p {
   opacity: 0.5;
 }
 
+.about-page {
+  height: 50vh;
+}
+
 .intro {
   padding: 0 0px 0 40px;
   margin-top: 50px;
@@ -222,11 +226,12 @@ footer p {
 
 #profile-picture {
   border-radius: 20px;
-  margin-left: 140px;
+  margin-left: 190px;
 }
 
 .description p {
   margin-right: 190px;
+  margin-left: 100px;
 }
 
 .icon-test svg .rotate {
@@ -256,6 +261,10 @@ footer p {
 
 /* Responsive */
 @media (max-width: 1024px) {
+  header {
+    height: 55vh;
+  }
+
   .icon-test {
     left: 60px !important;
     width: 100px;
@@ -263,7 +272,8 @@ footer p {
   }
 
   #profile-picture {
-    width: 250px;
+    margin-left: 180px;
+    width: 200px;
   }
 
   .description p {
@@ -352,6 +362,25 @@ footer p {
 
   footer p {
     max-width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    height: 40vh;
+  }
+
+  #profile-picture {
+    margin-left: 30px;
+    width: 400px;
+  }
+
+  .description p {
+    margin: 30px 20px 0px 30px;
+  }
+
+  footer {
+    margin-top: 90px;
   }
 }
 
