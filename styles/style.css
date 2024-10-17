@@ -361,7 +361,7 @@ footer p {
   }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 830px) {
   .about-page {
     height: 40vh;
   }
