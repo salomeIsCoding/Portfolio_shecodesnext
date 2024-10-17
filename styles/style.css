@@ -260,11 +260,7 @@ footer p {
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
-  header {
-    height: 55vh;
-  }
-
+@media (max-width: 1200px) {
   .icon-test {
     left: 60px !important;
     width: 100px;
@@ -365,9 +361,9 @@ footer p {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 790px) {
   .about-page {
-    height: 40vh;
+    height: 60vh;
   }
 
   #profile-picture {
