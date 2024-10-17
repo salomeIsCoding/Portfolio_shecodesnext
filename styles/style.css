@@ -361,9 +361,9 @@ footer p {
   }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 810px) {
   .about-page {
-    height: 60vh;
+    height: 40vh;
   }
 
   #profile-picture {
